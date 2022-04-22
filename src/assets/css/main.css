@@ -1,0 +1,41 @@
+#app {
+  font-family: "Raleway", sans-serif;
+}
+
+.router-link-exact-active {
+  font-weight: bold;
+}
+
+.btn-success,
+.badge-success {
+  background-color: #4eb883;
+  border: none;
+}
+
+.card-product {
+  border-radius: 16px;
+}
+
+.card-img-top {
+  border-radius: 16px 16px 0 0;
+}
+
+.breadcrumb {
+  background-color: transparent;
+  padding: 0;
+}
+
+.breadcrumb-item.active {
+  font-weight: bold;
+  color: black;
+}
+
+.img-fluid {
+  border-radius: 16px;
+}
+
+@media (max-width: 767.98px) {
+  .img-fluid {
+    margin-bottom: 1.25rem;
+  }
+}
